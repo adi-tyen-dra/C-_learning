@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AreaAndCircumference\AreaAndCircumference.csproj" />
+    <ProjectReference Include="..\AverageMarks\AverageMarks.csproj" />
+    <ProjectReference Include="..\BankAccount\BankAccount.csproj" />
+    <ProjectReference Include="..\Calculator\Calculator.csproj" />
+    <ProjectReference Include="..\ClassLibrary1\BookDetails.csproj" />
+    <ProjectReference Include="..\CollectionFramework\CollectionFramework.csproj" />
+    <ProjectReference Include="..\FileIOMethods\FileIOMethods.csproj" />
+    <ProjectReference Include="..\LitwareLib\LitwareLib.csproj" />
+    <ProjectReference Include="..\ParamsSum\ParamsSum.csproj" />
+    <ProjectReference Include="..\Swap\Swap.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SharedAssembly">
+      <HintPath>..\..\SharedAssembly\SharedAssembly\bin\Debug\SharedAssembly.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
